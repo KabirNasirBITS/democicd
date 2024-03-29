@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: postyondocker/ultimate-cicd:20
+        image: postyondocker/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
