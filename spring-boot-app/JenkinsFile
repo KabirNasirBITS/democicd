@@ -6,11 +6,6 @@ pipeline {
     }
   }
   stages {
-    stage('Preparation') {
-      steps {
-        deleteDir() // Clean workspace before checkout
-      }
-    }  
     stage('Checkout') {
       steps {
         sh 'echo passed'
